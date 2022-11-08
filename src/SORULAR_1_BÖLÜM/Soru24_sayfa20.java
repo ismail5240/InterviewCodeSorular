@@ -5,5 +5,13 @@ public class Soru24_sayfa20 {
 
         //Power number
 
+        // 3^4=81
+        int base = 2, exponet = 5;
+        long result = 1;
+        while (exponet != 0) {
+            result *= base;
+            --exponet;
         }
+        System.out.println("Answer=" + result);
+    }
 }

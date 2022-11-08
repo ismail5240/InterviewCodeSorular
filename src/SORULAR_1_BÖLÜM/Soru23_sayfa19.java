@@ -6,8 +6,15 @@ public class Soru23_sayfa19 {
         //Prime number  ***  asal sayı
         int num = 29;
         boolean flog = false;
-        for (int i=2;i<=num; i++){
-          //  if (num)
+        for (int i=2;i<=num/2; i++){
+           if (num % i==0){
+               flog=true;
+               break;
+           }
         }
+        if (!flog)
+            System.out.println(num+":Asal sayı");
+        else
+            System.out.println(num+":Asal sayı degildir");
     }
 }
