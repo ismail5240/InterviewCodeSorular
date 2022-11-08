@@ -1,6 +1,6 @@
 package SORULAR_1_BÖLÜM;
 
-public class Soru14_sayfa15 {
+public class Soru14_sayfa16 {
     public static void main(String[] args) {
 
         //Factorial number **** faktöriyel numarası
