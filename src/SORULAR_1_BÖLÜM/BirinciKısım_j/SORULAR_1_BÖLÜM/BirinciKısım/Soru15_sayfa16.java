@@ -1,4 +1,4 @@
-package SORULAR_1_BÖLÜM;
+package SORULAR_1_BÖLÜM.BirinciKısım_j.SORULAR_1_BÖLÜM.BirinciKısım;
 
 public class Soru15_sayfa16 {
     public static void main(String[] args) {
