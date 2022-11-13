@@ -8,14 +8,15 @@ public class Soru7_sayfa12 {
         //Question even or odd number  *** // Soru çift veya tek sayı
 
         Scanner sc = new Scanner(System.in);
+
         System.out.println("lütfen bir sayı giriniz");
 
         int num = sc.nextInt();
         if (num%2 ==0){
-            System.out.println(num+"=girilen sayı Çift");
+            System.out.println("girilen sayı Çift="+num);
 
         }else{
-            System.out.println(num+"=girilen sayı Tek");
+            System.out.println("girilen sayı Tek="+num);
         }
 
 

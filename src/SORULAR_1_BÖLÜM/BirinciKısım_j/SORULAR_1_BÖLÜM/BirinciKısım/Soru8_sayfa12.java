@@ -4,7 +4,7 @@ public class Soru8_sayfa12 {
     public static void main(String[] args) {
 
         //Questions: Check whether on alphobet is vowel or consonant
-        //Sorular: Bir alfabenin sesli mi yoksa ünsüz mü olduğunu kontrol edin
+        //Sorular: Bir alfabenin ünlü mi yoksa ünsüz mü olduğunu kontrol edin
         // a e i o u
 
         char ch='a';
