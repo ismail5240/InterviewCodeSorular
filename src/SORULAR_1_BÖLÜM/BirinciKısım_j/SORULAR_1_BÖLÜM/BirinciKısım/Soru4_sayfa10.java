@@ -6,11 +6,15 @@ public class Soru4_sayfa10 {
         //Question:Volue of ASCII of characters *** //Soru: Karakterlerin ASCII değeri
 
         char c= 'a';
-
+        char b='A';
         //frist way  ***  //ilk yol
-
+        int b2=b;
         int ascii=c;
+        int a2=c;
         System.out.println("ascii = " + ascii);
+
+        System.out.println("c nin içerisindeki 'a' karekterin Ascıı degeri = " + a2);
+        System.out.println("b nin içerisindeki 'A' karekterin Ascıı degeri = " + b2);
 
         // second way  *** //ikinci yol
 

@@ -13,6 +13,8 @@ public class soru2_sayfa9 {
         int sum=a+b;
         System.out.println("sum  :"+ sum);
 
+        System.out.println("(a+b) = " + (a + b));
+
         int sum2=a+b+c+d;
         System.out.println("sum2 = " + sum2);
 

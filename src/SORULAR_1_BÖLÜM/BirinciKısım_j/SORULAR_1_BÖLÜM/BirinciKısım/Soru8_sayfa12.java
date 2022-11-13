@@ -7,7 +7,6 @@ public class Soru8_sayfa12 {
         //Sorular: Bir alfabenin sesli mi yoksa ünsüz mü olduğunu kontrol edin
         // a e i o u
 
-
         char ch='a';
         if (ch=='a'||ch=='e'|ch=='i'|ch=='o'|ch=='u'){
             System.out.println(ch+ ":ünlü harfi buldunuz");

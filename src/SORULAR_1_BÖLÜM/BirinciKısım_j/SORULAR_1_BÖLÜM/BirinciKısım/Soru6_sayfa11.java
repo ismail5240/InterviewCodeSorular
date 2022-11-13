@@ -19,28 +19,44 @@ public class Soru6_sayfa11 {
         degsm = a;
 
         a = b;
-        System.out.println("a nın degişimden sonraki hali = " + a);
+        System.out.println("a nın degişimden sonraki hali = " + a);//20
 
         b = degsm;
-        System.out.println("b nin degişimden sonraki hali = " + b);
+        System.out.println("b nin degişimden sonraki hali = " + b);//10
 
                         // second way
+        int c=50;
+        int d=40;
 
         System.out.println("before swapping");
-        System.out.println("Volue of a:" + a);
-        System.out.println("Volue of b:" + b);
+        System.out.println("Volue of c:" +c);
+        System.out.println("Volue of d" + d);
 
         System.out.println("***After swapping second way*** ");
 
-        a = a - b;
-        System.out.println("a nın degişimden sonraki hali ***= " + a);
-        b = a + b;
-        System.out.println("b nin degişimden sonraki hali ***= " + b);
+        c = c - d;//c->10 büyük sayıdan küçük sayıyı çıkarıp büyük sayıya atama yapıyoruz
+        System.out.println("c nın degişimden sonraki hali ***= " + c);
+        d = c + d;//10+40=50->d küçük sayı ile büyük sayının yeni degerini topluyoruz
+        //küçük sayının son halini vermiş oluyoruz
+        System.out.println("d nin degişimden sonraki hali ***= " + d);
 
-        a = b - a;// bunu neden yazmıs etkisi yok
+        c = d - c;// 50-10->40->c Küçüksayının sonhalinden - Büyüksayının son hali
+        // büyük sayının sonhali ni elde etmiş oluyoruz
 
-        System.out.println("a nın degişimden sonraki hali = " + a);
-        System.out.println("b nin degişimden sonraki hali = " + b);
+        System.out.println("c nın degişimden sonraki hali = " + c);
+        System.out.println("d nin degişimden sonraki hali = " + d);
+
+        System.out.println("****yeni deneme+++");
+
+        int x=60;//--->40
+        int y=40;//--->60
+
+        x=x-y;//x=20
+        y=x+y;//y=60 işlem yamam
+        x=y-x;//x=40 işlem tamam
+        System.out.println("x = " + x);
+        System.out.println("y = " + y);
+
 
     }
 }
