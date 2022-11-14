@@ -5,8 +5,8 @@ public class Soru6_sayfa11 {
 
         //Swap numbers   ***  //Numaraları değiştir
 
-        int a = 10;
-        int b = 20;
+        int a = 10;//-->20
+        int b = 20;//-->10
 
         System.out.println("before swapping"); //değiştirmeden önce
         System.out.println("Volue of a:" + a);
@@ -25,8 +25,8 @@ public class Soru6_sayfa11 {
         System.out.println("b nin degişimden sonraki hali = " + b);//10
 
                         // second way
-        int c=50;
-        int d=40;
+        int c=50;//-->40
+        int d=40;//-->50
 
         System.out.println("before swapping");
         System.out.println("Volue of c:" +c);
@@ -34,14 +34,12 @@ public class Soru6_sayfa11 {
 
         System.out.println("***After swapping second way*** ");
 
-        c = c - d;//c->10 büyük sayıdan küçük sayıyı çıkarıp büyük sayıya atama yapıyoruz
+        c = c - d;//c->10
         System.out.println("c nın degişimden sonraki hali ***= " + c);
-        d = c + d;//10+40=50->d küçük sayı ile büyük sayının yeni degerini topluyoruz
-        //küçük sayının son halini vermiş oluyoruz
+        d = c + d;//10+40=50->d
         System.out.println("d nin degişimden sonraki hali ***= " + d);
 
-        c = d - c;// 50-10->40->c Küçüksayının sonhalinden - Büyüksayının son hali
-        // büyük sayının sonhali ni elde etmiş oluyoruz
+        c = d - c;// 50-10->40->c
 
         System.out.println("c nın degişimden sonraki hali = " + c);
         System.out.println("d nin degişimden sonraki hali = " + d);

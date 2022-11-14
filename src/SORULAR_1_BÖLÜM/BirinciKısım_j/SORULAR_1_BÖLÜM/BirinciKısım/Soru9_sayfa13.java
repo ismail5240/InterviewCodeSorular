@@ -14,10 +14,19 @@ public class Soru9_sayfa13 {
         if (x > y && x > z) {
             System.out.println(x + "=x: en büyük sayı");
         } else if (y > z) {
-            System.out.println("y en büyük sayı");
+            System.out.println(y+"=y en büyük sayı");
         } else {
-            System.out.println("z en büyük sayı");
+            System.out.println(z+"=z en büyük sayı");
         }
+
+        if (x < y && x < z) {
+            System.out.println(x + "=x: en küçük sayı");
+        } else if (y < z) {
+            System.out.println(y+"=y en küçük sayı");
+        } else {
+            System.out.println(z+"=z en küçük sayı");
+        }
+
 
                                   //second way
 
