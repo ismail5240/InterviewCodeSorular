@@ -1,11 +1,10 @@
 package SORULAR_1_BÖLÜM.BirinciKısım_j.SORULAR_1_BÖLÜM.İkiniKısım;
 
-public class Soru46_sayfa32 {
+public class Soru46_sayfa32 {}
 
 
-  /*  //creation of Interface --->Arayüz oluşturma
-
-//package codess;
+       //creation of Interface --->Arayüz oluşturma
+   /* package codess;
 
     //A simple interface -->Basit bir arayüz
     interface A {
@@ -19,12 +18,9 @@ public class Soru46_sayfa32 {
             System.out.println("this is an interface");
         }
 
-        public void main(String[] args) {
-            TestClass t = new TestClass();
-            t.display();
-            System.out.println(a)
 
-            public static void main (String[]) {
+
+            public static void main (String[] args) {
                     TestClass t = new TestClass();
             t.display();
             System.out.println(a);
@@ -32,8 +28,10 @@ public class Soru46_sayfa32 {
         }
     }
 
-   */
 
-}
+
+    */
+
+
 
 
