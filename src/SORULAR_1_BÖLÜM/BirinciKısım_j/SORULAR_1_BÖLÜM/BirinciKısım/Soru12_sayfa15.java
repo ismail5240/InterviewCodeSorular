@@ -5,7 +5,7 @@ public class Soru12_sayfa15 {
 
                              //Alphabet Checker *** Alfabe Denetleyicisi
 
-        char c='$';
+        char c='İ';
         if ((c>='a'&& c<='z')||(c>='A'&& c<='Z')){
             System.out.println("Alfabede mevcut:"+c);
         } else   {

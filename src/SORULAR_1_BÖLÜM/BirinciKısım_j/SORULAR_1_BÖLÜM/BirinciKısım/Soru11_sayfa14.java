@@ -6,7 +6,7 @@ public class Soru11_sayfa14 {
         //Positive and Negative number finding
         //Pozitif ve Negatif sayı bulma
 
-        double num=-0;
+        double num=0.9;
         if(num<0.0){
             System.out.println("Negatif sayı = " + num);
         } else if (num>0.0) {

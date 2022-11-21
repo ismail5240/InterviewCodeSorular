@@ -5,15 +5,25 @@ public class Soru13_sayfa15 {
 
         //Sum of the natural Number  ***  Doğal Sayının Toplamı
 
-        int num=100;
+        int num=50;
         int sum=0;
         int sum1=0;
 
+
+
         for (int i=0; i<=num;i++){
             sum=sum+i;
-            sum1=sum1+i;
+
         }
-        System.out.println("num2 = " + sum);
+        System.out.println("sum = " + sum);
+
+        System.out.println("********");// second way
+
+        int sayac=1;
+        while(sayac<=num){
+            sum1=sum1+sayac;
+            sayac++;
+        }
         System.out.println("sum1 = " + sum1);
     }
 }
