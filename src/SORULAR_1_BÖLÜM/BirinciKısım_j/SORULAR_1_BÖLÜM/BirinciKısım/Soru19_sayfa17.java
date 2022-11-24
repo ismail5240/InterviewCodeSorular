@@ -15,7 +15,7 @@ public class Soru19_sayfa17 {
             num=num/10;
             System.out.println(num);//num1(123)-->num2(12)-->num3(1)-->0
         }
-        //System.out.println(rev);//43
+        System.out.println(rev);//43-->432-->4321
     }
 
 }
